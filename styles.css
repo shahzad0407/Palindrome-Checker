@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(116, 189, 207);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+h1{
+text-align:center;
+font-family:Roboto Condensed;
+margin:4rem;
+font-size:3rem;
+}
+#main{
+display:flex;
+flex-direction:column;
+align-items:center;
+border:5px dashed black;
+width:50vw;
+padding-bottom:3rem;
+}
+h2{
+font-family:Roboto Condensed;
+font-size:2rem;
+text-align: center;
+}
+#check-btn{
+background-color: #080f18;
+border: none;
+color: white;
+padding: 12px 28px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 1rem 2px;
+cursor: pointer;
+border-radius:5px
+}
+input{
+width:13rem;
+height:1.7rem;
+}
+@media only screen and (max-width: 600px) {
+#main {
+    width:90vw
+}
+}
